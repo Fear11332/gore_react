@@ -1,0 +1,25 @@
+/* MapComponent.css */
+.map-container {
+    overflow: hidden; /* Скрываем выход за пределы */
+    position: relative;
+    width: 100%;
+    height: 100%; /* Занимаем всю высоту экрана */
+}
+
+.map-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    touch-action: none; /* Отключение стандартного поведения касания */
+}
+
+.marker {
+    position: absolute; /* Убедитесь, что маркер имеет абсолютное позиционирование */
+    width: 50px; /* Задайте ширину маркера */
+    height: 50px; /* Задайте высоту маркера */
+    background-color: red; /* Задайте цвет для видимости */
+    border-radius: 50%; /* Сделаем маркер круглым */
+    cursor: pointer; /* Изменяем курсор при наведении */
+}
+
+
