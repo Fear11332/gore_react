@@ -18,7 +18,7 @@ node_modules/
 jspm_packages/
 
 # Build outputs
-build/
+
 dist/
 
 # Static files
