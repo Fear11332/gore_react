@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gore_react/static/css/main.ed3e0d5f.css",
+    "main.js": "/gore_react/static/js/main.252c6498.js",
+    "index.html": "/gore_react/index.html",
+    "main.ed3e0d5f.css.map": "/gore_react/static/css/main.ed3e0d5f.css.map",
+    "main.252c6498.js.map": "/gore_react/static/js/main.252c6498.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3e0d5f.css",
+    "static/js/main.252c6498.js"
+  ]
+}
