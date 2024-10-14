@@ -1,3 +1,4 @@
+//i
 import React, { useRef, useEffect, useState } from 'react';
 import './MapComponent.css';
 import Ring from './Ring';
@@ -182,6 +183,7 @@ const MapComponent = () => {
                 setIsLocked(true); // Заблокировать, если в горизонтальном режиме
                 setIsDragging(false);
             } else {
+                loadImage();
                 setIsLocked(false); // Разблокировать, если в вертикальном режиме
                 setIsDragging(true); // Сброс состояния перетаскивания
             }
@@ -189,7 +191,6 @@ const MapComponent = () => {
 
         // Изначальная проверка ориентации
         checkOrientation();
-        loadImage();
 
         window.addEventListener('resize', checkOrientation);
         window.addEventListener('orientationchange', checkOrientation); // Обработчик на изменение ориентации
